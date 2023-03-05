@@ -13,3 +13,6 @@ O objetivo do desafio foi desenvolver um site estático aplicando os conceitos d
 <p style="text-align:justify">
 Desenvolva uma página de vendas de algum produto escolhido, onde tenha uma apresentação inicial do produto, abaixo outra apresentação de uma empresa fictícia desse produto, ainda abaixo uma tabela com comparativos de planos distintos do produto e por último um formulário onde o usuário colocaria seus dados e enviaria para que a empresa fictícia entrasse em contato.
 </p>
+<hr>
+<p  style="text-align:justify">Link do site: https://alinemizumukai.github.io/santander-coders-pet-coders-site/</p>
+
