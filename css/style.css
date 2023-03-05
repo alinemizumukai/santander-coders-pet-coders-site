@@ -1,0 +1,198 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;    
+    background-color: #f8ece4;
+    color: #00154f;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #00154f;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    display: flex;
+    margin: 20px;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    color: #edc53b;    
+}
+
+.menu li:hover {
+    color: #f2bc94;
+}
+
+.menu a {
+    text-decoration: none;    
+}
+
+.imagem-menu img{
+    padding: 20px;
+    width: 250px;
+}
+
+.content h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;    
+    line-height: 45px;
+    color: #00154f;
+}
+
+.content section{
+    margin: 30px;
+}
+
+
+.cards{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #00154f;
+    padding: 13px;
+    border-radius: 13px;
+    margin: 20px;
+    display: inline-table;
+    position: relative;
+    box-shadow: 1px 1px 4px #00154f;
+
+}
+
+.img-card, .img-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.title-card{
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    padding: 5px;
+}
+
+.description-card{
+    overflow: auto;
+    height: 100px;
+    padding: 5px;
+}
+
+.conteudo-secao {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.descricao-sobre{
+    width: 800px;
+    height: auto;
+    font-size: 18px;
+}
+
+.imagem-sobre{
+    width: 25%;
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+
+#tabela{
+    width: calc(100% - 60px);
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+#tabela *{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#tabela thead tr th, #tabela tfoot tr td{
+    border: 1px solid #f2bc94;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+}
+
+
+#tabela tbody tr td{
+    border: 1px solid #00154f;
+}
+
+#tabela thead, #tabela tfoot{
+    color: #edc53b;
+    background-color: #00154f;
+}
+
+.form input, .form textarea{
+    width: 500px;
+    background: #FFFFFF;
+    border: 1px solid #00154f;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 7px;
+}
+
+.form .btn{
+    margin: 10px 20px;
+    color: #edc53b;
+    background-color: #00154f;
+    border: 1px solid #00154f;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    box-shadow: 1px 2px 4px #edc53b;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.form .btn:hover{
+    color: #00154f;
+    background-color: #edc53b;
+    box-shadow: 1px 2px 4px #00154f;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background-color: #00154f;
+    font-family: 'Fredoka One', cursive;
+    font-size: 14px;
+    font-weight: bold;
+    color: #edc53b;
+}
+
+footer div{
+    align-content: center;
+}
