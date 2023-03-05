@@ -1,12 +1,7 @@
 * {
     margin: 0 auto;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-}
-
-html {
-    margin: 0px;
 }
 
 body {
@@ -16,8 +11,6 @@ body {
 }
 
 header {
-    width: 100%;
-    height: auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -45,8 +38,11 @@ header {
 }
 
 .imagem-menu img{
-    padding: 20px;
     width: 250px;
+}
+
+.content section{
+    margin: 30px;
 }
 
 .content h2 {
@@ -54,13 +50,7 @@ header {
     text-transform: uppercase;
     font-family: 'Fredoka One', cursive;    
     line-height: 45px;
-    color: #00154f;
 }
-
-.content section{
-    margin: 30px;
-}
-
 
 .cards{
     text-align: center;
@@ -71,22 +61,15 @@ header {
 
 .card{
     width: 300px;
-    height: 300px;
-    border: 1px solid #00154f;
     padding: 13px;
-    border-radius: 13px;
+    border-radius: 7px;
     margin: 20px;
-    display: inline-table;
-    position: relative;
     box-shadow: 1px 1px 4px #00154f;
-
 }
 
 .img-card, .img-card img{
-    width: 150px;
     height: 150px;
     border-radius: 50%;
-    padding: 5px;
 }
 
 .title-card{
@@ -95,27 +78,19 @@ header {
     padding: 5px;
 }
 
-.description-card{
-    overflow: auto;
-    height: 100px;
-    padding: 5px;
-}
-
 .conteudo-secao {
-    text-align: center;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    text-align: center;
+    margin: 30px;
 }
 
 .descricao-sobre{
-    width: 800px;
-    height: auto;
+    line-height: 25px;
     font-size: 18px;
 }
 
-.imagem-sobre{
+.imagem-secao{
     width: 25%;
     margin: 10px 50px;
     border-radius: 10px;
@@ -123,8 +98,6 @@ header {
 
 #tabela{
     width: calc(100% - 60px);
-    margin: auto;
-    text-align: center;
     border-collapse: collapse;
     border-radius: 5px;
 }
@@ -141,7 +114,6 @@ header {
     font-size: 16px;
 }
 
-
 #tabela tbody tr td{
     border: 1px solid #00154f;
 }
@@ -152,10 +124,8 @@ header {
 }
 
 .form input, .form textarea{
-    width: 500px;
-    background: #FFFFFF;
+    width: calc(100% - 60px);
     border: 1px solid #00154f;
-    box-sizing: border-box;
     border-radius: 7px;
     font-size: 16px;
     line-height: 35px;
@@ -167,11 +137,12 @@ header {
     color: #edc53b;
     background-color: #00154f;
     border: 1px solid #00154f;
+    box-shadow: 1px 2px 4px #edc53b;
     border-radius: 7px;
     text-transform: uppercase;
     font-family: 'Fredoka One', cursive;
     font-size: 16px;
-    box-shadow: 1px 2px 4px #edc53b;
+
     cursor: pointer;
     padding: 5px 15px;
 }
@@ -179,20 +150,16 @@ header {
 .form .btn:hover{
     color: #00154f;
     background-color: #edc53b;
+    border: 1px solid #edc53b;
     box-shadow: 1px 2px 4px #00154f;
 }
 
 footer {
     display: flex;
-    width: 100%;
-    padding: 10px;
+    flex-direction: column;
+    padding: 15px;
     background-color: #00154f;
-    font-family: 'Fredoka One', cursive;
     font-size: 14px;
     font-weight: bold;
     color: #edc53b;
-}
-
-footer div{
-    align-content: center;
 }
